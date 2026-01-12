@@ -1582,3 +1582,363 @@
 2026-01-07 17:17:15,724 [INFO] ============================================================
 2026-01-07 17:17:15,726 [INFO] [TIME] DAILY OPEN SANCTIONS SYNC COMPLETED
 2026-01-07 17:17:15,741 [INFO] ============================================================
+2026-01-08 15:09:52,017 [INFO] [OK] ScrapingLogger initialized
+2026-01-08 15:09:52,021 [INFO] ============================================================
+2026-01-08 15:09:52,022 [INFO] [TIME] DAILY OPEN SANCTIONS SYNC STARTED
+2026-01-08 15:09:52,022 [INFO] ============================================================
+2026-01-08 15:09:52,030 [INFO] [CLEANUP] Cleaned up 0 old operations and 0 old summaries (older than 90 days)
+2026-01-08 15:09:52,049 [INFO] [START] Starting OpenSanctions sync job for 52 datasets on date 20260108
+2026-01-08 15:09:52,655 [INFO] [OK] Found data for pl_mswia_sanctions on date: 20260108
+2026-01-08 15:09:52,657 [INFO] [SYNC] Downloading pl_mswia_sanctions from https://data.opensanctions.org/datasets/20260108/pl_mswia_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:09:53,484 [INFO] [OK] Completed operation: pl_mswia_sanctions_20260108_100952 (547 records, data_date: 20260108)
+2026-01-08 15:09:53,484 [INFO] [OK] Successfully processed 547 records for 'pl_mswia_sanctions' (data date: 20260108)
+2026-01-08 15:09:53,488 [INFO] [PROGRESS] [OK] Progress: 1/52 (1.9%) - pl_mswia_sanctions: 547 records in 1.44s (data: 20260108)
+2026-01-08 15:09:54,872 [INFO] [OK] Found data for be_fod_sanctions on date: 20260108
+2026-01-08 15:09:54,873 [INFO] [SYNC] Downloading be_fod_sanctions from https://data.opensanctions.org/datasets/20260108/be_fod_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:00,154 [INFO] [OK] Completed operation: be_fod_sanctions_20260108_100954 (6097 records, data_date: 20260108)
+2026-01-08 15:10:00,154 [INFO] [OK] Successfully processed 6097 records for 'be_fod_sanctions' (data date: 20260108)
+2026-01-08 15:10:00,159 [INFO] [PROGRESS] [OK] Progress: 2/52 (3.8%) - be_fod_sanctions: 6097 records in 5.67s (data: 20260108)
+2026-01-08 15:10:01,488 [INFO] [OK] Found data for au_dfat_sanctions on date: 20260108
+2026-01-08 15:10:01,489 [INFO] [SYNC] Downloading au_dfat_sanctions from https://data.opensanctions.org/datasets/20260108/au_dfat_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:03,509 [INFO] [OK] Completed operation: au_dfat_sanctions_20260108_101001 (3508 records, data_date: 20260108)
+2026-01-08 15:10:03,510 [INFO] [OK] Successfully processed 3508 records for 'au_dfat_sanctions' (data date: 20260108)
+2026-01-08 15:10:03,511 [INFO] [PROGRESS] [OK] Progress: 3/52 (5.8%) - au_dfat_sanctions: 3508 records in 2.35s (data: 20260108)
+2026-01-08 15:10:04,845 [INFO] [OK] Found data for kg_fiu_national on date: 20260108
+2026-01-08 15:10:04,846 [INFO] [SYNC] Downloading kg_fiu_national from https://data.opensanctions.org/datasets/20260108/kg_fiu_national/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:05,683 [INFO] [OK] Completed operation: kg_fiu_national_20260108_101004 (1176 records, data_date: 20260108)
+2026-01-08 15:10:05,684 [INFO] [OK] Successfully processed 1176 records for 'kg_fiu_national' (data date: 20260108)
+2026-01-08 15:10:05,685 [INFO] [PROGRESS] [OK] Progress: 4/52 (7.7%) - kg_fiu_national: 1176 records in 1.17s (data: 20260108)
+2026-01-08 15:10:07,589 [INFO] [OK] Found data for in_mha_banned on date: 20260107
+2026-01-08 15:10:07,589 [INFO] [SYNC] Downloading in_mha_banned from https://data.opensanctions.org/datasets/20260107/in_mha_banned/targets.nested.json (data date: 20260107)
+2026-01-08 15:10:08,052 [INFO] [OK] Completed operation: in_mha_banned_20260108_101007 (123 records, data_date: 20260107)
+2026-01-08 15:10:08,052 [INFO] [OK] Successfully processed 123 records for 'in_mha_banned' (data date: 20260107)
+2026-01-08 15:10:08,053 [INFO] [PROGRESS] [OK] Progress: 5/52 (9.6%) - in_mha_banned: 123 records in 1.37s (data: 20260107)
+2026-01-08 15:10:09,372 [INFO] [OK] Found data for jp_mof_sanctions on date: 20260108
+2026-01-08 15:10:09,373 [INFO] [SYNC] Downloading jp_mof_sanctions from https://data.opensanctions.org/datasets/20260108/jp_mof_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:11,296 [INFO] [OK] Completed operation: jp_mof_sanctions_20260108_101009 (2821 records, data_date: 20260108)
+2026-01-08 15:10:11,297 [INFO] [OK] Successfully processed 2821 records for 'jp_mof_sanctions' (data date: 20260108)
+2026-01-08 15:10:11,301 [INFO] [PROGRESS] [OK] Progress: 6/52 (11.5%) - jp_mof_sanctions: 2821 records in 2.25s (data: 20260108)
+2026-01-08 15:10:12,644 [INFO] [OK] Found data for ebrd_ineligible on date: 20260108
+2026-01-08 15:10:12,645 [INFO] [SYNC] Downloading ebrd_ineligible from https://data.opensanctions.org/datasets/20260108/ebrd_ineligible/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:13,491 [INFO] [OK] Completed operation: ebrd_ineligible_20260108_101012 (1056 records, data_date: 20260108)
+2026-01-08 15:10:13,493 [INFO] [OK] Successfully processed 1056 records for 'ebrd_ineligible' (data date: 20260108)
+2026-01-08 15:10:13,494 [INFO] [PROGRESS] [OK] Progress: 7/52 (13.5%) - ebrd_ineligible: 1056 records in 1.19s (data: 20260108)
+2026-01-08 15:10:14,816 [INFO] [OK] Found data for ca_listed_terrorists on date: 20260108
+2026-01-08 15:10:14,817 [INFO] [SYNC] Downloading ca_listed_terrorists from https://data.opensanctions.org/datasets/20260108/ca_listed_terrorists/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:15,398 [INFO] [OK] Completed operation: ca_listed_terrorists_20260108_101014 (89 records, data_date: 20260108)
+2026-01-08 15:10:15,399 [INFO] [OK] Successfully processed 89 records for 'ca_listed_terrorists' (data date: 20260108)
+2026-01-08 15:10:15,400 [INFO] [PROGRESS] [OK] Progress: 8/52 (15.4%) - ca_listed_terrorists: 89 records in 0.90s (data: 20260108)
+2026-01-08 15:10:16,728 [INFO] [OK] Found data for eu_europol_wanted on date: 20260108
+2026-01-08 15:10:16,730 [INFO] [SYNC] Downloading eu_europol_wanted from https://data.opensanctions.org/datasets/20260108/eu_europol_wanted/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:44,931 [INFO] [OK] ScrapingLogger initialized
+2026-01-08 15:10:44,935 [INFO] ============================================================
+2026-01-08 15:10:44,937 [INFO] [TIME] DAILY OPEN SANCTIONS SYNC STARTED
+2026-01-08 15:10:44,937 [INFO] ============================================================
+2026-01-08 15:10:44,941 [INFO] [CLEANUP] Cleaned up 0 old operations and 0 old summaries (older than 90 days)
+2026-01-08 15:10:44,951 [INFO] [START] Starting OpenSanctions sync job for 52 datasets on date 20260108
+2026-01-08 15:10:49,554 [INFO] [OK] Found data for pl_mswia_sanctions on date: 20260108
+2026-01-08 15:10:49,556 [INFO] [SYNC] Downloading pl_mswia_sanctions from https://data.opensanctions.org/datasets/20260108/pl_mswia_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:50,424 [INFO] [OK] Completed operation: pl_mswia_sanctions_20260108_101049 (547 records, data_date: 20260108)
+2026-01-08 15:10:50,425 [INFO] [OK] Successfully processed 547 records for 'pl_mswia_sanctions' (data date: 20260108)
+2026-01-08 15:10:50,430 [INFO] [PROGRESS] [OK] Progress: 1/52 (1.9%) - pl_mswia_sanctions: 547 records in 5.48s (data: 20260108)
+2026-01-08 15:10:51,742 [INFO] [OK] Found data for be_fod_sanctions on date: 20260108
+2026-01-08 15:10:51,742 [INFO] [SYNC] Downloading be_fod_sanctions from https://data.opensanctions.org/datasets/20260108/be_fod_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:10:55,616 [INFO] [OK] Completed operation: be_fod_sanctions_20260108_101051 (6097 records, data_date: 20260108)
+2026-01-08 15:10:55,617 [INFO] [OK] Successfully processed 6097 records for 'be_fod_sanctions' (data date: 20260108)
+2026-01-08 15:10:55,619 [INFO] [PROGRESS] [OK] Progress: 2/52 (3.8%) - be_fod_sanctions: 6097 records in 4.19s (data: 20260108)
+2026-01-08 15:11:01,797 [INFO] [OK] ScrapingLogger initialized
+2026-01-08 15:11:01,799 [INFO] ============================================================
+2026-01-08 15:11:01,799 [INFO] [TIME] DAILY OPEN SANCTIONS SYNC STARTED
+2026-01-08 15:11:01,799 [INFO] ============================================================
+2026-01-08 15:11:01,801 [INFO] [CLEANUP] Cleaned up 0 old operations and 0 old summaries (older than 90 days)
+2026-01-08 15:11:01,805 [WARNING] [ALERT] Marked abandoned operation: pl_mswia_sanctions_20260106_142245
+2026-01-08 15:11:01,806 [WARNING] [ALERT] Marked abandoned operation: be_fod_sanctions_20260106_142247
+2026-01-08 15:11:01,807 [WARNING] [ALERT] Marked abandoned operation: au_dfat_sanctions_20260106_142250
+2026-01-08 15:11:01,808 [WARNING] [ALERT] Marked abandoned operation: kg_fiu_national_20260106_142253
+2026-01-08 15:11:01,809 [WARNING] [ALERT] Marked abandoned operation: in_mha_banned_20260106_142256
+2026-01-08 15:11:01,812 [WARNING] [ALERT] Marked abandoned operation: jp_mof_sanctions_20260106_142258
+2026-01-08 15:11:01,814 [WARNING] [ALERT] Marked abandoned operation: ebrd_ineligible_20260106_142301
+2026-01-08 15:11:01,815 [WARNING] [ALERT] Marked abandoned operation: ca_listed_terrorists_20260106_142303
+2026-01-08 15:11:01,816 [WARNING] [ALERT] Marked abandoned operation: eu_europol_wanted_20260106_142305
+2026-01-08 15:11:01,817 [WARNING] [ALERT] Marked abandoned operation: az_fiu_sanctions_20260106_142307
+2026-01-08 15:11:01,818 [WARNING] [ALERT] Marked abandoned operation: us_occ_enfact_20260106_142308
+2026-01-08 15:11:01,819 [WARNING] [ALERT] Marked abandoned operation: eu_sanctions_map_20260106_142311
+2026-01-08 15:11:01,821 [WARNING] [ALERT] Marked abandoned operation: ch_seco_sanctions_20260106_142313
+2026-01-08 15:11:01,821 [WARNING] [ALERT] Marked abandoned operation: gb_hmt_sanctions_20260106_142317
+2026-01-08 15:11:01,822 [INFO] [CLEANUP] Cleaned up 14 stuck operations
+2026-01-08 15:11:01,914 [INFO] [FIX] Added full names to 198 operations
+2026-01-08 15:11:01,915 [INFO] [START] Starting OpenSanctions sync job for 52 datasets on date 20260108
+2026-01-08 15:11:02,249 [INFO] [OK] Found data for pl_mswia_sanctions on date: 20260108
+2026-01-08 15:11:02,250 [INFO] [SYNC] Downloading pl_mswia_sanctions from https://data.opensanctions.org/datasets/20260108/pl_mswia_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:02,990 [INFO] [OK] Completed operation: pl_mswia_sanctions_20260108_101102 (547 records, data_date: 20260108)
+2026-01-08 15:11:02,991 [INFO] [OK] Successfully processed 547 records for 'pl_mswia_sanctions' (data date: 20260108)
+2026-01-08 15:11:02,993 [INFO] [PROGRESS] [OK] Progress: 1/52 (1.9%) - pl_mswia_sanctions: 547 records in 1.08s (data: 20260108)
+2026-01-08 15:11:04,334 [INFO] [OK] Found data for be_fod_sanctions on date: 20260108
+2026-01-08 15:11:04,335 [INFO] [SYNC] Downloading be_fod_sanctions from https://data.opensanctions.org/datasets/20260108/be_fod_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:06,492 [INFO] [OK] Completed operation: be_fod_sanctions_20260108_101104 (6097 records, data_date: 20260108)
+2026-01-08 15:11:06,492 [INFO] [OK] Successfully processed 6097 records for 'be_fod_sanctions' (data date: 20260108)
+2026-01-08 15:11:06,493 [INFO] [PROGRESS] [OK] Progress: 2/52 (3.8%) - be_fod_sanctions: 6097 records in 2.50s (data: 20260108)
+2026-01-08 15:11:07,836 [INFO] [OK] Found data for au_dfat_sanctions on date: 20260108
+2026-01-08 15:11:07,837 [INFO] [SYNC] Downloading au_dfat_sanctions from https://data.opensanctions.org/datasets/20260108/au_dfat_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:09,050 [INFO] [OK] Completed operation: au_dfat_sanctions_20260108_101107 (3508 records, data_date: 20260108)
+2026-01-08 15:11:09,050 [INFO] [OK] Successfully processed 3508 records for 'au_dfat_sanctions' (data date: 20260108)
+2026-01-08 15:11:09,052 [INFO] [PROGRESS] [OK] Progress: 3/52 (5.8%) - au_dfat_sanctions: 3508 records in 1.56s (data: 20260108)
+2026-01-08 15:11:10,373 [INFO] [OK] Found data for kg_fiu_national on date: 20260108
+2026-01-08 15:11:10,374 [INFO] [SYNC] Downloading kg_fiu_national from https://data.opensanctions.org/datasets/20260108/kg_fiu_national/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:11,116 [INFO] [OK] Completed operation: kg_fiu_national_20260108_101110 (1176 records, data_date: 20260108)
+2026-01-08 15:11:11,116 [INFO] [OK] Successfully processed 1176 records for 'kg_fiu_national' (data date: 20260108)
+2026-01-08 15:11:11,118 [INFO] [PROGRESS] [OK] Progress: 4/52 (7.7%) - kg_fiu_national: 1176 records in 1.06s (data: 20260108)
+2026-01-08 15:11:12,943 [INFO] [OK] Found data for in_mha_banned on date: 20260107
+2026-01-08 15:11:12,944 [INFO] [SYNC] Downloading in_mha_banned from https://data.opensanctions.org/datasets/20260107/in_mha_banned/targets.nested.json (data date: 20260107)
+2026-01-08 15:11:13,412 [INFO] [OK] Completed operation: in_mha_banned_20260108_101112 (123 records, data_date: 20260107)
+2026-01-08 15:11:13,412 [INFO] [OK] Successfully processed 123 records for 'in_mha_banned' (data date: 20260107)
+2026-01-08 15:11:13,414 [INFO] [PROGRESS] [OK] Progress: 5/52 (9.6%) - in_mha_banned: 123 records in 1.29s (data: 20260107)
+2026-01-08 15:11:14,739 [INFO] [OK] Found data for jp_mof_sanctions on date: 20260108
+2026-01-08 15:11:14,741 [INFO] [SYNC] Downloading jp_mof_sanctions from https://data.opensanctions.org/datasets/20260108/jp_mof_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:15,889 [INFO] [OK] Completed operation: jp_mof_sanctions_20260108_101114 (2821 records, data_date: 20260108)
+2026-01-08 15:11:15,890 [INFO] [OK] Successfully processed 2821 records for 'jp_mof_sanctions' (data date: 20260108)
+2026-01-08 15:11:15,892 [INFO] [PROGRESS] [OK] Progress: 6/52 (11.5%) - jp_mof_sanctions: 2821 records in 1.48s (data: 20260108)
+2026-01-08 15:11:17,208 [INFO] [OK] Found data for ebrd_ineligible on date: 20260108
+2026-01-08 15:11:17,209 [INFO] [SYNC] Downloading ebrd_ineligible from https://data.opensanctions.org/datasets/20260108/ebrd_ineligible/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:18,043 [INFO] [OK] Completed operation: ebrd_ineligible_20260108_101117 (1056 records, data_date: 20260108)
+2026-01-08 15:11:18,043 [INFO] [OK] Successfully processed 1056 records for 'ebrd_ineligible' (data date: 20260108)
+2026-01-08 15:11:18,043 [INFO] [PROGRESS] [OK] Progress: 7/52 (13.5%) - ebrd_ineligible: 1056 records in 1.15s (data: 20260108)
+2026-01-08 15:11:19,356 [INFO] [OK] Found data for ca_listed_terrorists on date: 20260108
+2026-01-08 15:11:19,357 [INFO] [SYNC] Downloading ca_listed_terrorists from https://data.opensanctions.org/datasets/20260108/ca_listed_terrorists/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:19,936 [INFO] [OK] Completed operation: ca_listed_terrorists_20260108_101119 (89 records, data_date: 20260108)
+2026-01-08 15:11:19,937 [INFO] [OK] Successfully processed 89 records for 'ca_listed_terrorists' (data date: 20260108)
+2026-01-08 15:11:19,937 [INFO] [PROGRESS] [OK] Progress: 8/52 (15.4%) - ca_listed_terrorists: 89 records in 0.89s (data: 20260108)
+2026-01-08 15:11:21,393 [INFO] [OK] Found data for eu_europol_wanted on date: 20260108
+2026-01-08 15:11:21,394 [INFO] [SYNC] Downloading eu_europol_wanted from https://data.opensanctions.org/datasets/20260108/eu_europol_wanted/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:21,739 [INFO] [OK] Completed operation: eu_europol_wanted_20260108_101121 (48 records, data_date: 20260108)
+2026-01-08 15:11:21,740 [INFO] [OK] Successfully processed 48 records for 'eu_europol_wanted' (data date: 20260108)
+2026-01-08 15:11:21,741 [INFO] [PROGRESS] [OK] Progress: 9/52 (17.3%) - eu_europol_wanted: 48 records in 0.80s (data: 20260108)
+2026-01-08 15:11:23,052 [INFO] [OK] Found data for az_fiu_sanctions on date: 20260108
+2026-01-08 15:11:23,057 [INFO] [SYNC] Downloading az_fiu_sanctions from https://data.opensanctions.org/datasets/20260108/az_fiu_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:23,387 [INFO] [OK] Completed operation: az_fiu_sanctions_20260108_101123 (36 records, data_date: 20260108)
+2026-01-08 15:11:23,388 [INFO] [OK] Successfully processed 36 records for 'az_fiu_sanctions' (data date: 20260108)
+2026-01-08 15:11:23,389 [INFO] [PROGRESS] [OK] Progress: 10/52 (19.2%) - az_fiu_sanctions: 36 records in 0.65s (data: 20260108)
+2026-01-08 15:11:24,728 [INFO] [OK] Found data for us_occ_enfact on date: 20260108
+2026-01-08 15:11:24,729 [INFO] [SYNC] Downloading us_occ_enfact from https://data.opensanctions.org/datasets/20260108/us_occ_enfact/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:25,704 [INFO] [OK] Completed operation: us_occ_enfact_20260108_101124 (4175 records, data_date: 20260108)
+2026-01-08 15:11:25,704 [INFO] [OK] Successfully processed 4175 records for 'us_occ_enfact' (data date: 20260108)
+2026-01-08 15:11:25,705 [INFO] [PROGRESS] [OK] Progress: 11/52 (21.2%) - us_occ_enfact: 4175 records in 1.31s (data: 20260108)
+2026-01-08 15:11:27,019 [INFO] [OK] Found data for eu_sanctions_map on date: 20260108
+2026-01-08 15:11:27,020 [INFO] [SYNC] Downloading eu_sanctions_map from https://data.opensanctions.org/datasets/20260108/eu_sanctions_map/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:27,845 [INFO] [OK] Completed operation: eu_sanctions_map_20260108_101127 (1347 records, data_date: 20260108)
+2026-01-08 15:11:27,846 [INFO] [OK] Successfully processed 1347 records for 'eu_sanctions_map' (data date: 20260108)
+2026-01-08 15:11:27,847 [INFO] [PROGRESS] [OK] Progress: 12/52 (23.1%) - eu_sanctions_map: 1347 records in 1.14s (data: 20260108)
+2026-01-08 15:11:29,440 [INFO] [OK] Found data for ch_seco_sanctions on date: 20260108
+2026-01-08 15:11:29,441 [INFO] [SYNC] Downloading ch_seco_sanctions from https://data.opensanctions.org/datasets/20260108/ch_seco_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:31,920 [INFO] [OK] Completed operation: ch_seco_sanctions_20260108_101129 (6365 records, data_date: 20260108)
+2026-01-08 15:11:31,921 [INFO] [OK] Successfully processed 6365 records for 'ch_seco_sanctions' (data date: 20260108)
+2026-01-08 15:11:31,923 [INFO] [PROGRESS] [OK] Progress: 13/52 (25.0%) - ch_seco_sanctions: 6365 records in 3.08s (data: 20260108)
+2026-01-08 15:11:33,237 [INFO] [OK] Found data for gb_hmt_sanctions on date: 20260108
+2026-01-08 15:11:33,238 [INFO] [SYNC] Downloading gb_hmt_sanctions from https://data.opensanctions.org/datasets/20260108/gb_hmt_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:35,140 [INFO] [OK] Completed operation: gb_hmt_sanctions_20260108_101133 (5120 records, data_date: 20260108)
+2026-01-08 15:11:35,141 [INFO] [OK] Successfully processed 5120 records for 'gb_hmt_sanctions' (data date: 20260108)
+2026-01-08 15:11:35,142 [INFO] [PROGRESS] [OK] Progress: 14/52 (26.9%) - gb_hmt_sanctions: 5120 records in 2.22s (data: 20260108)
+2026-01-08 15:11:39,050 [INFO] [OK] Found data for ca_facfoa on date: 20260103
+2026-01-08 15:11:39,050 [INFO] [SYNC] Downloading ca_facfoa from https://data.opensanctions.org/datasets/20260103/ca_facfoa/targets.nested.json (data date: 20260103)
+2026-01-08 15:11:39,375 [INFO] [OK] Completed operation: ca_facfoa_20260108_101139 (8 records, data_date: 20260103)
+2026-01-08 15:11:39,375 [INFO] [OK] Successfully processed 8 records for 'ca_facfoa' (data date: 20260103)
+2026-01-08 15:11:39,376 [INFO] [PROGRESS] [OK] Progress: 15/52 (28.8%) - ca_facfoa: 8 records in 3.23s (data: 20260103)
+2026-01-08 15:11:41,222 [INFO] [OK] Found data for ru_acf_bribetakers on date: 20260107
+2026-01-08 15:11:41,222 [INFO] [SYNC] Downloading ru_acf_bribetakers from https://data.opensanctions.org/datasets/20260107/ru_acf_bribetakers/targets.nested.json (data date: 20260107)
+2026-01-08 15:11:42,910 [INFO] [OK] Completed operation: ru_acf_bribetakers_20260108_101141 (8516 records, data_date: 20260107)
+2026-01-08 15:11:42,911 [INFO] [OK] Successfully processed 8516 records for 'ru_acf_bribetakers' (data date: 20260107)
+2026-01-08 15:11:42,912 [INFO] [PROGRESS] [OK] Progress: 16/52 (30.8%) - ru_acf_bribetakers: 8516 records in 2.53s (data: 20260107)
+2026-01-08 15:11:44,223 [INFO] [OK] Found data for ua_nsdc_sanctions on date: 20260108
+2026-01-08 15:11:44,224 [INFO] [SYNC] Downloading ua_nsdc_sanctions from https://data.opensanctions.org/datasets/20260108/ua_nsdc_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:11:52,743 [INFO] [OK] Completed operation: ua_nsdc_sanctions_20260108_101144 (20333 records, data_date: 20260108)
+2026-01-08 15:11:52,744 [INFO] [OK] Successfully processed 20333 records for 'ua_nsdc_sanctions' (data date: 20260108)
+2026-01-08 15:11:52,746 [INFO] [PROGRESS] [OK] Progress: 17/52 (32.7%) - ua_nsdc_sanctions: 20333 records in 8.83s (data: 20260108)
+2026-01-08 15:11:56,813 [INFO] [OK] Found data for eu_meps on date: 20260103
+2026-01-08 15:11:56,814 [INFO] [SYNC] Downloading eu_meps from https://data.opensanctions.org/datasets/20260103/eu_meps/targets.nested.json (data date: 20260103)
+2026-01-08 15:11:57,520 [INFO] [OK] Completed operation: eu_meps_20260108_101156 (719 records, data_date: 20260103)
+2026-01-08 15:11:57,520 [INFO] [OK] Successfully processed 719 records for 'eu_meps' (data date: 20260103)
+2026-01-08 15:11:57,524 [INFO] [PROGRESS] [OK] Progress: 18/52 (34.6%) - eu_meps: 719 records in 3.78s (data: 20260103)
+2026-01-08 15:11:59,395 [INFO] [OK] Found data for iadb_sanctions on date: 20260107
+2026-01-08 15:11:59,396 [INFO] [SYNC] Downloading iadb_sanctions from https://data.opensanctions.org/datasets/20260107/iadb_sanctions/targets.nested.json (data date: 20260107)
+2026-01-08 15:12:00,212 [INFO] [OK] Completed operation: iadb_sanctions_20260108_101159 (1147 records, data_date: 20260107)
+2026-01-08 15:12:00,213 [INFO] [OK] Successfully processed 1147 records for 'iadb_sanctions' (data date: 20260107)
+2026-01-08 15:12:00,214 [INFO] [PROGRESS] [OK] Progress: 19/52 (36.5%) - iadb_sanctions: 1147 records in 1.69s (data: 20260107)
+2026-01-08 15:12:01,520 [INFO] [OK] Found data for adb_sanctions on date: 20260108
+2026-01-08 15:12:01,521 [INFO] [SYNC] Downloading adb_sanctions from https://data.opensanctions.org/datasets/20260108/adb_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:02,365 [INFO] [OK] Completed operation: adb_sanctions_20260108_101201 (1284 records, data_date: 20260108)
+2026-01-08 15:12:02,366 [INFO] [OK] Successfully processed 1284 records for 'adb_sanctions' (data date: 20260108)
+2026-01-08 15:12:02,369 [INFO] [PROGRESS] [OK] Progress: 20/52 (38.5%) - adb_sanctions: 1284 records in 1.15s (data: 20260108)
+2026-01-08 15:12:03,685 [INFO] [OK] Found data for ru_nsd_isin on date: 20260108
+2026-01-08 15:12:03,686 [INFO] [SYNC] Downloading ru_nsd_isin from https://data.opensanctions.org/datasets/20260108/ru_nsd_isin/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:07,438 [INFO] [OK] Completed operation: ru_nsd_isin_20260108_101203 (17987 records, data_date: 20260108)
+2026-01-08 15:12:07,440 [INFO] [OK] Successfully processed 17987 records for 'ru_nsd_isin' (data date: 20260108)
+2026-01-08 15:12:07,445 [INFO] [PROGRESS] [OK] Progress: 21/52 (40.4%) - ru_nsd_isin: 17987 records in 4.07s (data: 20260108)
+2026-01-08 15:12:08,750 [INFO] [OK] Found data for un_sc_sanctions on date: 20260108
+2026-01-08 15:12:08,750 [INFO] [SYNC] Downloading un_sc_sanctions from https://data.opensanctions.org/datasets/20260108/un_sc_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:09,729 [INFO] [OK] Completed operation: un_sc_sanctions_20260108_101208 (995 records, data_date: 20260108)
+2026-01-08 15:12:09,730 [INFO] [OK] Successfully processed 995 records for 'un_sc_sanctions' (data date: 20260108)
+2026-01-08 15:12:09,733 [INFO] [PROGRESS] [OK] Progress: 22/52 (42.3%) - un_sc_sanctions: 995 records in 1.29s (data: 20260108)
+2026-01-08 15:12:11,525 [INFO] [OK] Found data for md_rise_profiles on date: 20260107
+2026-01-08 15:12:11,526 [INFO] [SYNC] Downloading md_rise_profiles from https://data.opensanctions.org/datasets/20260107/md_rise_profiles/targets.nested.json (data date: 20260107)
+2026-01-08 15:12:12,225 [INFO] [OK] Completed operation: md_rise_profiles_20260108_101211 (415 records, data_date: 20260107)
+2026-01-08 15:12:12,226 [INFO] [OK] Successfully processed 415 records for 'md_rise_profiles' (data date: 20260107)
+2026-01-08 15:12:12,229 [INFO] [PROGRESS] [OK] Progress: 23/52 (44.2%) - md_rise_profiles: 415 records in 1.49s (data: 20260107)
+2026-01-08 15:12:14,098 [INFO] [OK] Found data for us_fbi_most_wanted on date: 20260107
+2026-01-08 15:12:14,098 [INFO] [SYNC] Downloading us_fbi_most_wanted from https://data.opensanctions.org/datasets/20260107/us_fbi_most_wanted/targets.nested.json (data date: 20260107)
+2026-01-08 15:12:14,767 [INFO] [OK] Completed operation: us_fbi_most_wanted_20260108_101214 (475 records, data_date: 20260107)
+2026-01-08 15:12:14,768 [INFO] [OK] Successfully processed 475 records for 'us_fbi_most_wanted' (data date: 20260107)
+2026-01-08 15:12:14,769 [INFO] [PROGRESS] [OK] Progress: 24/52 (46.2%) - us_fbi_most_wanted: 475 records in 1.54s (data: 20260107)
+2026-01-08 15:12:16,078 [INFO] [OK] Found data for ca_dfatd_sema_sanctions on date: 20260108
+2026-01-08 15:12:16,079 [INFO] [SYNC] Downloading ca_dfatd_sema_sanctions from https://data.opensanctions.org/datasets/20260108/ca_dfatd_sema_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:17,354 [INFO] [OK] Completed operation: ca_dfatd_sema_sanctions_20260108_101216 (5163 records, data_date: 20260108)
+2026-01-08 15:12:17,354 [INFO] [OK] Successfully processed 5163 records for 'ca_dfatd_sema_sanctions' (data date: 20260108)
+2026-01-08 15:12:17,356 [INFO] [PROGRESS] [OK] Progress: 25/52 (48.1%) - ca_dfatd_sema_sanctions: 5163 records in 1.59s (data: 20260108)
+2026-01-08 15:12:19,251 [INFO] [OK] Found data for ae_local_terrorists on date: 20260107
+2026-01-08 15:12:19,252 [INFO] [SYNC] Downloading ae_local_terrorists from https://data.opensanctions.org/datasets/20260107/ae_local_terrorists/targets.nested.json (data date: 20260107)
+2026-01-08 15:12:19,805 [INFO] [OK] Completed operation: ae_local_terrorists_20260108_101219 (290 records, data_date: 20260107)
+2026-01-08 15:12:19,806 [INFO] [OK] Successfully processed 290 records for 'ae_local_terrorists' (data date: 20260107)
+2026-01-08 15:12:19,807 [INFO] [PROGRESS] [OK] Progress: 26/52 (50.0%) - ae_local_terrorists: 290 records in 1.45s (data: 20260107)
+2026-01-08 15:12:22,666 [INFO] [OK] Found data for us_cuba_sanctions on date: 20260105
+2026-01-08 15:12:22,667 [INFO] [SYNC] Downloading us_cuba_sanctions from https://data.opensanctions.org/datasets/20260105/us_cuba_sanctions/targets.nested.json (data date: 20260105)
+2026-01-08 15:12:23,233 [INFO] [OK] Completed operation: us_cuba_sanctions_20260108_101222 (572 records, data_date: 20260105)
+2026-01-08 15:12:23,234 [INFO] [OK] Successfully processed 572 records for 'us_cuba_sanctions' (data date: 20260105)
+2026-01-08 15:12:23,236 [INFO] [PROGRESS] [OK] Progress: 27/52 (51.9%) - us_cuba_sanctions: 572 records in 2.43s (data: 20260105)
+2026-01-08 15:12:28,247 [WARNING] [WARNING] No recent dated data found for sy_obsalytics_opensyr, using fallback: https://data.opensanctions.org/datasets/latest/sy_obsalytics_opensyr/targets.nested.json
+2026-01-08 15:12:28,248 [INFO] [SYNC] Downloading sy_obsalytics_opensyr from https://data.opensanctions.org/datasets/latest/sy_obsalytics_opensyr/targets.nested.json (using latest endpoint)
+2026-01-08 15:12:28,589 [INFO] [OK] Completed operation: sy_obsalytics_opensyr_20260108_101228 (0 records, data_date: 20260108)
+2026-01-08 15:12:28,590 [INFO] [OK] Successfully processed 0 records for 'sy_obsalytics_opensyr' (data date: latest)
+2026-01-08 15:12:28,591 [INFO] [PROGRESS] [OK] Progress: 28/52 (53.8%) - sy_obsalytics_opensyr: 0 records in 4.35s 
+2026-01-08 15:12:29,926 [INFO] [OK] Found data for lt_fiu_freezes on date: 20260108
+2026-01-08 15:12:29,926 [INFO] [SYNC] Downloading lt_fiu_freezes from https://data.opensanctions.org/datasets/20260108/lt_fiu_freezes/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:30,266 [INFO] [OK] Completed operation: lt_fiu_freezes_20260108_101229 (16 records, data_date: 20260108)
+2026-01-08 15:12:30,267 [INFO] [OK] Successfully processed 16 records for 'lt_fiu_freezes' (data date: 20260108)
+2026-01-08 15:12:30,267 [INFO] [PROGRESS] [OK] Progress: 29/52 (55.8%) - lt_fiu_freezes: 16 records in 0.67s (data: 20260108)
+2026-01-08 15:12:31,711 [INFO] [OK] Found data for ar_repet on date: 20260108
+2026-01-08 15:12:31,712 [INFO] [SYNC] Downloading ar_repet from https://data.opensanctions.org/datasets/20260108/ar_repet/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:32,569 [INFO] [OK] Completed operation: ar_repet_20260108_101231 (653 records, data_date: 20260108)
+2026-01-08 15:12:32,570 [INFO] [OK] Successfully processed 653 records for 'ar_repet' (data date: 20260108)
+2026-01-08 15:12:32,573 [INFO] [PROGRESS] [OK] Progress: 30/52 (57.7%) - ar_repet: 653 records in 1.30s (data: 20260108)
+2026-01-08 15:12:33,890 [INFO] [OK] Found data for za_fic_sanctions on date: 20260108
+2026-01-08 15:12:33,891 [INFO] [SYNC] Downloading za_fic_sanctions from https://data.opensanctions.org/datasets/20260108/za_fic_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:34,842 [INFO] [OK] Completed operation: za_fic_sanctions_20260108_101233 (989 records, data_date: 20260108)
+2026-01-08 15:12:34,842 [INFO] [OK] Successfully processed 989 records for 'za_fic_sanctions' (data date: 20260108)
+2026-01-08 15:12:34,845 [INFO] [PROGRESS] [OK] Progress: 31/52 (59.6%) - za_fic_sanctions: 989 records in 1.27s (data: 20260108)
+2026-01-08 15:12:39,680 [WARNING] [WARNING] No recent dated data found for ru_fedsfm_wmd, using fallback: https://data.opensanctions.org/datasets/latest/ru_fedsfm_wmd/targets.nested.json
+2026-01-08 15:12:39,681 [INFO] [SYNC] Downloading ru_fedsfm_wmd from https://data.opensanctions.org/datasets/latest/ru_fedsfm_wmd/targets.nested.json (using latest endpoint)
+2026-01-08 15:12:41,147 [INFO] [OK] Completed operation: ru_fedsfm_wmd_20260108_101239 (239 records, data_date: 20260108)
+2026-01-08 15:12:41,148 [INFO] [OK] Successfully processed 239 records for 'ru_fedsfm_wmd' (data date: latest)
+2026-01-08 15:12:41,150 [INFO] [PROGRESS] [OK] Progress: 32/52 (61.5%) - ru_fedsfm_wmd: 239 records in 5.30s 
+2026-01-08 15:12:42,485 [INFO] [OK] Found data for interpol_red_notices on date: 20260108
+2026-01-08 15:12:42,486 [INFO] [SYNC] Downloading interpol_red_notices from https://data.opensanctions.org/datasets/20260108/interpol_red_notices/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:43,700 [INFO] [OK] Completed operation: interpol_red_notices_20260108_101242 (6473 records, data_date: 20260108)
+2026-01-08 15:12:43,700 [INFO] [OK] Successfully processed 6473 records for 'interpol_red_notices' (data date: 20260108)
+2026-01-08 15:12:43,702 [INFO] [PROGRESS] [OK] Progress: 33/52 (63.5%) - interpol_red_notices: 6473 records in 1.55s (data: 20260108)
+2026-01-08 15:12:45,027 [INFO] [OK] Found data for us_ofac_sdn on date: 20260108
+2026-01-08 15:12:45,028 [INFO] [SYNC] Downloading us_ofac_sdn from https://data.opensanctions.org/datasets/20260108/us_ofac_sdn/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:50,967 [INFO] [OK] Completed operation: us_ofac_sdn_20260108_101245 (19216 records, data_date: 20260108)
+2026-01-08 15:12:50,967 [INFO] [OK] Successfully processed 19216 records for 'us_ofac_sdn' (data date: 20260108)
+2026-01-08 15:12:50,968 [INFO] [PROGRESS] [OK] Progress: 34/52 (65.4%) - us_ofac_sdn: 19216 records in 6.27s (data: 20260108)
+2026-01-08 15:12:52,284 [INFO] [OK] Found data for eu_fsf on date: 20260108
+2026-01-08 15:12:52,285 [INFO] [SYNC] Downloading eu_fsf from https://data.opensanctions.org/datasets/20260108/eu_fsf/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:53,989 [INFO] [OK] Completed operation: eu_fsf_20260108_101252 (5683 records, data_date: 20260108)
+2026-01-08 15:12:53,989 [INFO] [OK] Successfully processed 5683 records for 'eu_fsf' (data date: 20260108)
+2026-01-08 15:12:53,991 [INFO] [PROGRESS] [OK] Progress: 35/52 (67.3%) - eu_fsf: 5683 records in 2.02s (data: 20260108)
+2026-01-08 15:12:55,329 [INFO] [OK] Found data for sg_terrorists on date: 20260108
+2026-01-08 15:12:55,330 [INFO] [SYNC] Downloading sg_terrorists from https://data.opensanctions.org/datasets/20260108/sg_terrorists/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:55,662 [INFO] [OK] Completed operation: sg_terrorists_20260108_101255 (40 records, data_date: 20260108)
+2026-01-08 15:12:55,662 [INFO] [OK] Successfully processed 40 records for 'sg_terrorists' (data date: 20260108)
+2026-01-08 15:12:55,663 [INFO] [PROGRESS] [OK] Progress: 36/52 (69.2%) - sg_terrorists: 40 records in 0.67s (data: 20260108)
+2026-01-08 15:12:56,987 [INFO] [OK] Found data for fr_tresor_gels_avoir on date: 20260108
+2026-01-08 15:12:56,988 [INFO] [SYNC] Downloading fr_tresor_gels_avoir from https://data.opensanctions.org/datasets/20260108/fr_tresor_gels_avoir/targets.nested.json (data date: 20260108)
+2026-01-08 15:12:59,041 [INFO] [OK] Completed operation: fr_tresor_gels_avoir_20260108_101256 (5848 records, data_date: 20260108)
+2026-01-08 15:12:59,041 [INFO] [OK] Successfully processed 5848 records for 'fr_tresor_gels_avoir' (data date: 20260108)
+2026-01-08 15:12:59,046 [INFO] [PROGRESS] [OK] Progress: 37/52 (71.2%) - fr_tresor_gels_avoir: 5848 records in 2.38s (data: 20260108)
+2026-01-08 15:13:00,859 [INFO] [OK] Found data for nz_russia_sanctions on date: 20260107
+2026-01-08 15:13:00,860 [INFO] [SYNC] Downloading nz_russia_sanctions from https://data.opensanctions.org/datasets/20260107/nz_russia_sanctions/targets.nested.json (data date: 20260107)
+2026-01-08 15:13:01,832 [INFO] [OK] Completed operation: nz_russia_sanctions_20260108_101300 (1817 records, data_date: 20260107)
+2026-01-08 15:13:01,833 [INFO] [OK] Successfully processed 1817 records for 'nz_russia_sanctions' (data date: 20260107)
+2026-01-08 15:13:01,837 [INFO] [PROGRESS] [OK] Progress: 38/52 (73.1%) - nz_russia_sanctions: 1817 records in 1.79s (data: 20260107)
+2026-01-08 15:13:03,171 [INFO] [OK] Found data for bg_omnio_poi on date: 20260108
+2026-01-08 15:13:03,174 [INFO] [SYNC] Downloading bg_omnio_poi from https://data.opensanctions.org/datasets/20260108/bg_omnio_poi/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:03,897 [INFO] [OK] Completed operation: bg_omnio_poi_20260108_101303 (574 records, data_date: 20260108)
+2026-01-08 15:13:03,897 [INFO] [OK] Successfully processed 574 records for 'bg_omnio_poi' (data date: 20260108)
+2026-01-08 15:13:03,900 [INFO] [PROGRESS] [OK] Progress: 39/52 (75.0%) - bg_omnio_poi: 574 records in 1.06s (data: 20260108)
+2026-01-08 15:13:05,731 [INFO] [OK] Found data for us_cia_world_leaders on date: 20260107
+2026-01-08 15:13:05,731 [INFO] [SYNC] Downloading us_cia_world_leaders from https://data.opensanctions.org/datasets/20260107/us_cia_world_leaders/targets.nested.json (data date: 20260107)
+2026-01-08 15:13:06,859 [INFO] [OK] Completed operation: us_cia_world_leaders_20260108_101305 (5355 records, data_date: 20260107)
+2026-01-08 15:13:06,859 [INFO] [OK] Successfully processed 5355 records for 'us_cia_world_leaders' (data date: 20260107)
+2026-01-08 15:13:06,860 [INFO] [PROGRESS] [OK] Progress: 40/52 (76.9%) - us_cia_world_leaders: 5355 records in 1.96s (data: 20260107)
+2026-01-08 15:13:09,529 [INFO] [OK] Found data for everypolitician on date: 20260106
+2026-01-08 15:13:09,530 [INFO] [SYNC] Downloading everypolitician from https://data.opensanctions.org/datasets/20260106/everypolitician/targets.nested.json (data date: 20260106)
+2026-01-08 15:13:19,214 [INFO] [OK] Completed operation: everypolitician_20260108_101309 (57488 records, data_date: 20260106)
+2026-01-08 15:13:19,214 [INFO] [OK] Successfully processed 57488 records for 'everypolitician' (data date: 20260106)
+2026-01-08 15:13:19,217 [INFO] [PROGRESS] [OK] Progress: 41/52 (78.8%) - everypolitician: 57488 records in 11.36s (data: 20260106)
+2026-01-08 15:13:22,170 [INFO] [OK] Found data for eu_cor_members on date: 20260105
+2026-01-08 15:13:22,171 [INFO] [SYNC] Downloading eu_cor_members from https://data.opensanctions.org/datasets/20260105/eu_cor_members/targets.nested.json (data date: 20260105)
+2026-01-08 15:13:22,766 [INFO] [OK] Completed operation: eu_cor_members_20260108_101322 (675 records, data_date: 20260105)
+2026-01-08 15:13:22,767 [INFO] [OK] Successfully processed 675 records for 'eu_cor_members' (data date: 20260105)
+2026-01-08 15:13:22,771 [INFO] [PROGRESS] [OK] Progress: 42/52 (80.8%) - eu_cor_members: 675 records in 2.55s (data: 20260105)
+2026-01-08 15:13:24,637 [INFO] [OK] Found data for worldbank_debarred on date: 20260107
+2026-01-08 15:13:24,637 [INFO] [SYNC] Downloading worldbank_debarred from https://data.opensanctions.org/datasets/20260107/worldbank_debarred/targets.nested.json (data date: 20260107)
+2026-01-08 15:13:25,597 [INFO] [OK] Completed operation: worldbank_debarred_20260108_101324 (1252 records, data_date: 20260107)
+2026-01-08 15:13:25,598 [INFO] [OK] Successfully processed 1252 records for 'worldbank_debarred' (data date: 20260107)
+2026-01-08 15:13:25,600 [INFO] [PROGRESS] [OK] Progress: 43/52 (82.7%) - worldbank_debarred: 1252 records in 1.83s (data: 20260107)
+2026-01-08 15:13:26,909 [INFO] [OK] Found data for qa_nctc_sanctions on date: 20260108
+2026-01-08 15:13:26,909 [INFO] [SYNC] Downloading qa_nctc_sanctions from https://data.opensanctions.org/datasets/20260108/qa_nctc_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:27,750 [INFO] [OK] Completed operation: qa_nctc_sanctions_20260108_101326 (838 records, data_date: 20260108)
+2026-01-08 15:13:27,750 [INFO] [OK] Successfully processed 838 records for 'qa_nctc_sanctions' (data date: 20260108)
+2026-01-08 15:13:27,753 [INFO] [PROGRESS] [OK] Progress: 44/52 (84.6%) - qa_nctc_sanctions: 838 records in 1.15s (data: 20260108)
+2026-01-08 15:13:29,645 [INFO] [OK] Found data for nl_most_wanted on date: 20260107
+2026-01-08 15:13:29,646 [INFO] [SYNC] Downloading nl_most_wanted from https://data.opensanctions.org/datasets/20260107/nl_most_wanted/targets.nested.json (data date: 20260107)
+2026-01-08 15:13:29,978 [INFO] [OK] Completed operation: nl_most_wanted_20260108_101329 (18 records, data_date: 20260107)
+2026-01-08 15:13:29,978 [INFO] [OK] Successfully processed 18 records for 'nl_most_wanted' (data date: 20260107)
+2026-01-08 15:13:29,979 [INFO] [PROGRESS] [OK] Progress: 45/52 (86.5%) - nl_most_wanted: 18 records in 1.22s (data: 20260107)
+2026-01-08 15:13:31,290 [INFO] [OK] Found data for md_interdictie on date: 20260108
+2026-01-08 15:13:31,291 [INFO] [SYNC] Downloading md_interdictie from https://data.opensanctions.org/datasets/20260108/md_interdictie/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:31,624 [INFO] [OK] Completed operation: md_interdictie_20260108_101331 (19 records, data_date: 20260108)
+2026-01-08 15:13:31,625 [INFO] [OK] Successfully processed 19 records for 'md_interdictie' (data date: 20260108)
+2026-01-08 15:13:31,627 [INFO] [PROGRESS] [OK] Progress: 46/52 (88.5%) - md_interdictie: 19 records in 0.65s (data: 20260108)
+2026-01-08 15:13:32,949 [INFO] [OK] Found data for gb_coh_disqualified on date: 20260108
+2026-01-08 15:13:32,950 [INFO] [SYNC] Downloading gb_coh_disqualified from https://data.opensanctions.org/datasets/20260108/gb_coh_disqualified/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:34,982 [INFO] [OK] Completed operation: gb_coh_disqualified_20260108_101332 (9724 records, data_date: 20260108)
+2026-01-08 15:13:34,983 [INFO] [OK] Successfully processed 9724 records for 'gb_coh_disqualified' (data date: 20260108)
+2026-01-08 15:13:34,987 [INFO] [PROGRESS] [OK] Progress: 47/52 (90.4%) - gb_coh_disqualified: 9724 records in 2.36s (data: 20260108)
+2026-01-08 15:13:36,307 [INFO] [OK] Found data for us_ofac_cons on date: 20260108
+2026-01-08 15:13:36,308 [INFO] [SYNC] Downloading us_ofac_cons from https://data.opensanctions.org/datasets/20260108/us_ofac_cons/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:37,229 [INFO] [OK] Completed operation: us_ofac_cons_20260108_101336 (673 records, data_date: 20260108)
+2026-01-08 15:13:37,229 [INFO] [OK] Successfully processed 673 records for 'us_ofac_cons' (data date: 20260108)
+2026-01-08 15:13:37,233 [INFO] [PROGRESS] [OK] Progress: 48/52 (92.3%) - us_ofac_cons: 673 records in 1.24s (data: 20260108)
+2026-01-08 15:13:38,544 [INFO] [OK] Found data for afdb_sanctions on date: 20260108
+2026-01-08 15:13:38,545 [INFO] [SYNC] Downloading afdb_sanctions from https://data.opensanctions.org/datasets/20260108/afdb_sanctions/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:39,278 [INFO] [OK] Completed operation: afdb_sanctions_20260108_101338 (1009 records, data_date: 20260108)
+2026-01-08 15:13:39,279 [INFO] [OK] Successfully processed 1009 records for 'afdb_sanctions' (data date: 20260108)
+2026-01-08 15:13:39,279 [INFO] [PROGRESS] [OK] Progress: 49/52 (94.2%) - afdb_sanctions: 1009 records in 1.05s (data: 20260108)
+2026-01-08 15:13:40,593 [INFO] [OK] Found data for eu_travel_bans on date: 20260108
+2026-01-08 15:13:40,593 [INFO] [SYNC] Downloading eu_travel_bans from https://data.opensanctions.org/datasets/20260108/eu_travel_bans/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:41,791 [INFO] [OK] Completed operation: eu_travel_bans_20260108_101340 (3842 records, data_date: 20260108)
+2026-01-08 15:13:41,791 [INFO] [OK] Successfully processed 3842 records for 'eu_travel_bans' (data date: 20260108)
+2026-01-08 15:13:41,794 [INFO] [PROGRESS] [OK] Progress: 50/52 (96.2%) - eu_travel_bans: 3842 records in 1.51s (data: 20260108)
+2026-01-08 15:13:43,795 [INFO] [OK] Found data for ua_sfms_blacklist on date: 20260107
+2026-01-08 15:13:43,796 [INFO] [SYNC] Downloading ua_sfms_blacklist from https://data.opensanctions.org/datasets/20260107/ua_sfms_blacklist/targets.nested.json (data date: 20260107)
+2026-01-08 15:13:44,721 [INFO] [OK] Completed operation: ua_sfms_blacklist_20260108_101343 (984 records, data_date: 20260107)
+2026-01-08 15:13:44,722 [INFO] [OK] Successfully processed 984 records for 'ua_sfms_blacklist' (data date: 20260107)
+2026-01-08 15:13:44,725 [INFO] [PROGRESS] [OK] Progress: 51/52 (98.1%) - ua_sfms_blacklist: 984 records in 1.93s (data: 20260107)
+2026-01-08 15:13:46,033 [INFO] [OK] Found data for il_mod_terrorists on date: 20260108
+2026-01-08 15:13:46,035 [INFO] [SYNC] Downloading il_mod_terrorists from https://data.opensanctions.org/datasets/20260108/il_mod_terrorists/targets.nested.json (data date: 20260108)
+2026-01-08 15:13:46,941 [INFO] [OK] Completed operation: il_mod_terrorists_20260108_101346 (862 records, data_date: 20260108)
+2026-01-08 15:13:46,942 [INFO] [OK] Successfully processed 862 records for 'il_mod_terrorists' (data date: 20260108)
+2026-01-08 15:13:46,946 [INFO] [PROGRESS] [OK] Progress: 52/52 (100.0%) - il_mod_terrorists: 862 records in 1.22s (data: 20260108)
+2026-01-08 15:13:47,987 [INFO] [SUMMARY] Created daily summary for 20260108: 52/52 successful
+2026-01-08 15:13:47,988 [INFO] 
+[STATS] SYNC SUMMARY for 20260108
+2026-01-08 15:13:47,989 [INFO] [OK] Successfully processed: 52/52 datasets
+2026-01-08 15:13:47,990 [INFO] [STATS] Total records imported: 214,699
+2026-01-08 15:13:47,990 [INFO] [SUCCESS] All datasets processed successfully!
+2026-01-08 15:13:47,991 [INFO] [SUMMARY] Success rate: 100.0%
+2026-01-08 15:13:47,992 [INFO] [DATE] Data dates used: 20260103, 20260107, 20260105, 20260108, 20260106
+2026-01-08 15:13:47,997 [INFO] [SAVE] Sync metadata saved to database
+2026-01-08 15:13:47,997 [INFO] OpenSanctions sync job finished.
+
+2026-01-08 15:13:47,999 [INFO] ============================================================
+2026-01-08 15:13:47,999 [INFO] [TIME] DAILY OPEN SANCTIONS SYNC COMPLETED
+2026-01-08 15:13:48,000 [INFO] ============================================================

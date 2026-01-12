@@ -1228,7 +1228,8 @@ logger.addHandler(console_handler)
 
 # --- MongoDB Setup ---
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["auth_tutorial"]
+# db = client["auth_tutorial"]
+db = client["complyfor_db"] 
 
 # === Dataset Full Names Dictionary ===
 DATASET_FULL_NAMES = {
